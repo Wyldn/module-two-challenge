@@ -13,6 +13,10 @@ a {
 
 p {
     font-size: 16px;
+    color: #E1DAD1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body {
@@ -31,6 +35,26 @@ main {
     background-color: #212121;
     color: #E1DAD1;
 }
+
+h2 {
+    color: #B3A188;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #B3A188;
+    font-size: 40px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 
 .header h1 {
     display: inline-block;
@@ -79,6 +103,19 @@ main {
     background-size: cover;
     background-position: center;
 }
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 620px;
+    margin-bottom: 25px;
+    background-image: url("../images/man-faceless-avatar-vector-15098566.jpg");
+    background-size: cover;
+    margin-right: 500px;
+}
+
 
 .content {
     width: 75%;
@@ -157,4 +194,11 @@ main {
   
   .work-item:hover {
     transform: scale(1.1);
+  }
+  
+  article {
+    border-bottom: 1px solid #d8a47f;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
